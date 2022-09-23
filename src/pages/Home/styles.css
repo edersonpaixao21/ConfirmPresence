@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #01a29a;
+  height: 800px;
+}
+
+.container .logo {
+  width: 400px;
+}
+
+
+.container p {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container header div {
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  width: 35%;
+  padding: 24px;
+
+  background-color: hsla(0, 0%, 90%, 0.904);
+
+  border-radius: 5px;
+  border: none;
+
+  font-size: 16px;
+}
+
+.container button {
+
+  width: 35%;
+  padding: 24px;
+
+  font-size: 16px;
+  font-weight: 700;
+  background: #e36652;
+  color: #fff;
+
+  border: 5px;
+  margin: 16px 0 84px;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.container button:hover {
+  filter: brightness(0.9);
+}
+
+.students_container {
+  display: flex; /*display para o container dos estudantes*/
+  gap: 1rem; /*distancia entre os cards*/
+  flex-wrap: wrap; /*para os cards irem para outras linhas*/
+  justify-content: center; /* para alinhar ao centro */
+}
